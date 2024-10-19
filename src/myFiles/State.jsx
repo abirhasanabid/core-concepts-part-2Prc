@@ -3,8 +3,6 @@ import { useState } from 'react'
 export default function State() {
     const [count, setCount] = useState(0)
     const handlerAdd = () => {
-        /* const newCount = count +1;
-        setCount(newCount); */
         setCount(count + 1);
     }
     const handlerRemove = () => {
